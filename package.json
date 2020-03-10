@@ -1,0 +1,21 @@
+{
+  "name": "ts-1",
+  "version": "1.0.0",
+  "description": "typescript learn",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "jianqing",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.3.33"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.149",
+    "jquery": "^3.4.1"
+  }
+}
