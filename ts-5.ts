@@ -1,3 +1,5 @@
+// 类型推断
+
 let xs = [0, 1, null]
 
 class Animal  {
