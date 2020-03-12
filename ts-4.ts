@@ -15,16 +15,16 @@ interface GericIdentityFn<T> {
 
 let myIdentity: GericIdentityFn<number> = identity
 
-class GenericNumber<T> {
-  zeroValue: T
-  add: (x: T, y: T) => T
-}
+// class GenericNumber<T> {
+//   zeroValue: T 
+//   add: (x: T, y: T) => T
+// }
 
-let myGenricNumber = new GenericNumber<number>()
-myGenricNumber.zeroValue = 0
-myGenricNumber.add = function(x, y){
-  return x + y
-}
+// let myGenricNumber = new GenericNumber<number>()
+// myGenricNumber.zeroValue = 0
+// myGenricNumber.add = function(x, y){
+//   return x + y
+// }
 
 interface Lengthwise {
   length: number
@@ -48,14 +48,14 @@ function create<T>(c: {new():T}): T {
   return new c()
 }
 
-class BeeKeeper {
-  hasMask: boolean
-}
+// class BeeKeeper {
+//   hasMask: boolean
+// }
 
-class LionKeeper {
-  nametag: string
-}
-class Animal {
-  numLengs: number
-}
+// class LionKeeper {
+//   nametag: string
+// }
+// class Animal {
+//   numLengs: number
+// }
 
